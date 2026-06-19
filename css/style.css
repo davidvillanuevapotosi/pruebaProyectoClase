@@ -64,8 +64,8 @@ z-index: 1000;
 }
 
 .btn-login-nav{
-    background-color: var(--rojo) !important;
-    color: white !important;
+    background-color: var(--rojo);
+    color: white;
     border-radius: 30px;
     padding: 8px 30px;
     font-weight: 700;
@@ -73,6 +73,107 @@ z-index: 1000;
 }
 
 .btn-login-nav:hover{
-    background-color: var(--blanco) !important;
-    color: var(--rojo) !important;
-    border: 1px solid var(--rojo) !important;
+    background-color: var(--blanco);
+    color: var(--rojo);
+    border: 1px solid var(--rojo);
+}
+
+.modal-login{
+    background-color: var(--blanco);
+}
+
+.modal-login h2{
+    color: var(--negro);
+    font-weight: 700;
+}
+
+.btn-login{
+    background-color: var(--rojo);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn-login:hover{
+    background-color: #b92f2d;
+    color: white;
+}
+
+.link-login{
+    color: var(--rojo);
+    text-decoration: none;
+}
+
+.banner{
+    min-height: 350px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    background-blend-mode: darken;
+    color: var(--blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner p{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.texto-inicio{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.nombre{
+    color: var(--rojo);
+}
+
+.tarjeta{
+    border: none;
+    border-radius: 0 0 35px 35px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.tarjeta:hover{
+        transform:scale(01.03); 
+}
+
+.img-tarjeta{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.tarjeta h2{
+    color: var(--rojo);
+}
+
+.formulario{
+    background-color: var(--negro);
+}
+
+.formulariC{
+    max-width: 400px;
+    text-align: center;
+}
+
+.formulario h2{
+    color: white;
+    font-weight: 700;
+
+}
