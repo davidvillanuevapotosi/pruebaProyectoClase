@@ -26,8 +26,18 @@ if(email === 'admin@maskot.com' && password === '12345'){
     }).then(() =>{
         window.location.href='Administrador/dashboard.html';
     });
- 
- 
+
+
+}else if(email === "cliente@maskot.com" && password === "12345"){
+    Swal.fire({
+        icon:"success",
+        title :"Inicio Exitoso",
+        text: "Bienvenido Cliente",
+        confirmButtonColor: "#DD404A"
+    }).then(() => {
+        window.location.href="cliente/cliente.html";
+    })
+    
 }else{
       Swal.fire({
         icon:"error",
@@ -39,3 +49,5 @@ if(email === 'admin@maskot.com' && password === '12345'){
     }
  
 })
+
+
